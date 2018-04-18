@@ -90,7 +90,7 @@ int main ()
       eng_num -= 90;
     }
   
-    if ((eng_num / 50) >=1) // For numbers between 90 - 50
+    if ((eng_num / 50) >=1) // For numbers between 89 - 50
     {
       output << 'L';
       eng_num -= 50;
