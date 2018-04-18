@@ -102,7 +102,7 @@ int main ()
       eng_num = eng_num - 40;
     }
   
-    if ((eng_num / 10) >=1) // For numbers between 100 - 489
+    if ((eng_num / 10) >=1) 
     {
       for (int i = 0; i < (eng_num / 10); i++) // For numbers between 10 - 39
         output << 'X';
