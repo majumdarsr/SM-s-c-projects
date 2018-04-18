@@ -11,12 +11,20 @@ C = 100
 D = 500
 M = 1000
 Rules for writing roman numbers:
+
 i. Only one I, X, and C can be used as the leading numeral in part of a subtractive pair.
+
 ii. I can only be placed before V and X.
+
 iii. X can only be placed before L and C.
+
 iv. C can only be placed before D and M.
+
 Thus the legal subtractive pairs should be:
+
 IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900.
+
+Also, no number should have more than one 'D', 'L' and 'V'
 */
 
 #include <iostream>
