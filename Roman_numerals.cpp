@@ -3,6 +3,7 @@
 Roman numerals
 Project Euler: Problem 89 
 https://projecteuler.net/problem=89
+This program generates roman numerals 1 - 100000
 Traditional Roman numerals are made up of the following denominations:
 I = 1
 V = 5
