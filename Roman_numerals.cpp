@@ -96,15 +96,15 @@ int main ()
       eng_num -= 50;
     } 
   
-    if (eng_num >=40)
+    if (eng_num >= 40)      // For numbers between 49 - 40
     {
       output << 'X' << 'L';
-      eng_num = eng_num - 40;
+      eng_num -= 40;
     }
   
-    if ((eng_num / 10) >=1) 
+    if ((eng_num / 10) >= 1) // For numbers between 39 - 10
     {
-      for (int i = 0; i < (eng_num / 10); i++) // For numbers between 10 - 39
+      for (int i = 0; i < (eng_num / 10); i++) 
         output << 'X';
       eng_num = eng_num % 10;
     }
