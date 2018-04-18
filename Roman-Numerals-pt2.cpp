@@ -1,5 +1,6 @@
 
-/*Sriparna Majumdar
+/*@Sriparna Majumdar
+// PLEASE REQUEST PERMISSION BEFORE USING THESE CODES. //
 Euler Project 610
 
 Roman Numeral Generator:
