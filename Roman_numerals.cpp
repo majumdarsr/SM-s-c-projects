@@ -60,37 +60,37 @@ int main ()
       eng_num = eng_num % 1000;
     }
   
-    if (eng_num >= 900)    // For numbers between 900 - 999
+    if (eng_num >= 900)    // For numbers between 999 - 900
     {
       output << 'C' << 'M';
       eng_num -= 900;  
     }
-    if ((eng_num / 500) >=1) // For numbers between 500 - 899
+    if ((eng_num / 500) >=1) // For numbers between 899 - 500
     {
       output << 'D';
       eng_num -= 500;
     }
   
-    if (eng_num >=490)     // For numbers between 490 - 499
+    if (eng_num >= 400)     // For numbers between 499 - 400
     {
       output << 'C' << 'D';
-      eng_num = eng_num - 400;
+      eng_num -= 400;
     }
   
-    if ((eng_num / 100) >=1) // For numbers between 100 - 489
+    if ((eng_num / 100) >= 1) // For numbers between 399 - 100
     {
       for (int i = 0; i < (eng_num / 100); i++)
         output << 'C';
       eng_num = eng_num % 100;
     }
   
-    if (eng_num >= 90) // for numbers between 90 - 99
+    if (eng_num >= 90) // for numbers between 99 - 90
     {
       output << 'X' << 'C';
       eng_num -= 90;
     }
   
-    if ((eng_num / 50) >=1) // For numbers between 50 - 90
+    if ((eng_num / 50) >=1) // For numbers between 90 - 50
     {
       output << 'L';
       eng_num -= 50;
