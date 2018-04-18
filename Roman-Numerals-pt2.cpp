@@ -2,8 +2,10 @@
 /*@Sriparna Majumdar
 // PLEASE REQUEST PERMISSION BEFORE USING THESE CODES. //
 Euler Project 610
+https://projecteuler.net/problem=610
 
 Roman Numeral Generator:
+
 A random generator produces a sequence of symbols drawn from the set {I, V, X, L, C, D, M, #}. 
 Each item in the sequence is determined by selecting one of these symbols at random, independently of the other items in the sequence. 
 At each step, the seven letters are equally likely to be selected, with probability 14% each, but the # symbol only has a 2% chance of selection.
